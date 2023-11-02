@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* This is the scrollbar track (the background) */
+::-webkit-scrollbar {
+    width: 4px; 
+    height: 4px; 
+    background: #302066;
+}
+
+/* This is the handle (or the 'thumb') */
+::-webkit-scrollbar-thumb {
+    background: #EBEBEB;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* This makes the scrollbar slim */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(128, 128, 128, 0.5) transparent; /* Thumb and Track */
+}
+
+/* These are for Internet Explorer */
+body {
+    scrollbar-face-color: grey;
+    scrollbar-track-color: transparent;
+    scrollbar-width: thin;
+    scrollbar-arrow-color: grey;
+    scrollbar-highlight-color: grey;
+    scrollbar-3dlight-color: transparent;
+    scrollbar-darkshadow-color: transparent;
+    scrollbar-shadow-color: transparent;
+}
