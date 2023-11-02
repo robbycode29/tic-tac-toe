@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "tic-tac-toe-1941e"
+  },
+  "targets": {
+    "tic-tac-toe-1941e": {
+      "hosting": {
+        "app": [
+          "tic-tac-toe-1941e"
+        ]
+      }
+    }
+  }
+}
